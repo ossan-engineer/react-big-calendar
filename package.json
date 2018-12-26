@@ -38,8 +38,7 @@
     "tdd": "jest --watch",
     "release": "rollout",
     "prepublishOnly": "npm run build",
-    "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write ",
-    "precommit": "lint-staged"
+    "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write "
   },
   "lint-staged": {
     "src/**/*.js": "eslint",
@@ -81,7 +80,6 @@
     "eslint-plugin-react": "^7.11.1",
     "font-awesome": "^4.7.0",
     "globalize": "^0.1.1",
-    "husky": "^0.14.3",
     "jest": "^23.6.0",
     "less": "^2.7.3",
     "less-plugin-autoprefix": "^1.5.1",
